@@ -21,3 +21,44 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/App.css
+src/App.js
+src/App.test.js
+src/index.js
+src/logo.svg
+src/setupTests.js
+src/Assets/90-Race-1-scaled.jpg
+src/Assets/976387226.jpg
+src/Assets/976387226.webp
+src/Assets/backgroundnou.jpg
+src/Assets/Fundal.png
+src/Assets/LeMansCup_logo.png
+src/Assets/lofgofer4.png
+src/Assets/logo cadiliac.webp
+src/Assets/logo porsche.jpg
+src/Assets/logo toyota.png
+src/Assets/logo3fer.png
+src/Assets/logo5.png
+src/Assets/logoferari.jpg
+src/Assets/logoferaribun.png
+src/Assets/logoporschebun.png
+src/Assets/logoporschebun2.png
+src/Assets/masicacadilacbuna.png
+src/Assets/masina cadiliac.jpg
+src/Assets/masina ferari.png
+src/Assets/masina porsche.jpg
+src/Assets/masina toyota.png
+src/Assets/masinacadiliacbuna2.png
+src/Assets/porsche5.png
+src/Assets/porschelogo3.jpg
+src/Assets/porschelogo4.png
+src/Assets/porschemasinabuna.png
+src/Assets/porschemasinabuna3.png
+src/Assets/trofeulemanfarabackground.png
+src/Assets/wp8344264.jpg
+src/Components/Competitori.js
+src/Components/PaginaPrincipala.js
+src/Components/Pool.js
+src/Styles/Competitori.css
+src/Styles/PaginaPrincipala.css
+src/Styles/Pool.css
