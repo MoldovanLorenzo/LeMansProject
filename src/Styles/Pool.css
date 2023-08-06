@@ -1,0 +1,50 @@
+.poll-options {
+    list-style-type: none;
+    font-family: Arial, sans-serif; 
+    color: white;
+  }
+  
+  .poll-options li {
+    font-size: 50px; 
+    margin-bottom: 10px; 
+    color: aliceblue;
+  }
+  
+  .poll-options button {
+    margin-left: 10px; 
+    align-items: center;
+  }
+  .PanouVot{
+    border: 2px solid transparent;
+    width: 1300px;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .Titlu
+  {
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+  }
+  .Butone
+  {
+    color:aliceblue;
+    border: 2px solid transparent;
+    position: relative;
+    left: 400px;
+
+  }
+  .ListaOptiuni{
+    position: relative;
+    right: 300px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+
+  }
+  .Butone:hover
+  {
+    color:  black;
+  }

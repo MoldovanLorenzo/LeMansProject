@@ -1,0 +1,252 @@
+
+.DivEchipe {
+    display: flex;
+    justify-content: space-between;
+   height: 700px;
+   width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .Echipa1,
+  .Echipa2,
+  .Echipa3,
+  .Echipa4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+  }
+  .Echipa1 img
+  {
+  max-width: 100%;
+  max-height: 100%;
+  }
+  .Echipa2 img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .Echipa3{
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.3s ease-in-out;
+
+  }
+  .Echipa4 img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .Echipa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Echipa1 img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Echipa1::before {
+    content: "Of the four Cadillac Le Mans cars, the fate of three is known. One car, which was customized by George Barris, was acquired by Harry Karl, a wealthy shoe manufacturer";
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Echipa1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 150px;
+    background-image: url('../Assets/masinacadiliacbuna2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .Echipa1:hover img {
+    opacity: 0;
+  }
+  
+  .Echipa1:hover::before {
+    opacity: 1;
+  }
+  
+  .Echipa1:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .Echipa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .Echipa2::before {
+    content: "Sophisticated aerodynamics for the long straights and ultra-fast corners, exceptional suspensions and brakes, the lightest yet high-strength design as well as superior engine performance are the ingredients for racing success. ";
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .Echipa2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 150px;
+    background-image: url('../Assets/porsche5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .Echipa2:hover img {
+    opacity: 0;
+  }
+  
+  .Echipa2:hover::before {
+    opacity: 1;
+  }
+  
+  .Echipa2:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .Echipa3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .Echipa3::before {
+    content: "Toyota Gazoo Racing Europe GmbH  (TGR-E) is an automotive engineering and motorsport services facility based in Cologne, Germany. It is fully-owned and controlled by Toyota Motor Corporation ";
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .Echipa3::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    height: 200px;
+    background-image: url('../Assets/masina\ toyota.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .Echipa3:hover img {
+    opacity: 0;
+  }
+  
+  .Echipa3:hover::before {
+    opacity: 1;
+  }
+  
+  .Echipa3:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .Echipa4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .Echipa4::before {
+    content: "The Ferrari 499P is a sports prototype built by Scuderia Ferrari to compete in the FIA World Endurance Championship in the Le Mans Hypercar category since 2023. ";
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .Echipa4::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 150px;
+    background-image: url('../Assets/masina\ ferari.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .Echipa4:hover img {
+    opacity: 0;
+  }
+  
+  .Echipa4:hover::before {
+    opacity: 1;
+  }
+  
+  .Echipa4:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
